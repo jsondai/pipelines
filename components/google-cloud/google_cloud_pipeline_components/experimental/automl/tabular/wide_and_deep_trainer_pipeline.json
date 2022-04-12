@@ -1632,7 +1632,7 @@
         "stringValue": ""
       },
       "eval_frequency_secs": {
-        "intValue": "600"
+        "intValue": "60"
       },
       "eval_steps": {
         "intValue": "0"

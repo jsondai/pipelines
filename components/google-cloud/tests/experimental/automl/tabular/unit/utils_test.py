@@ -346,7 +346,7 @@ class UtilsTest(unittest.TestCase):
             'batch_size':
                 100,
             'eval_frequency_secs':
-                600,
+                60,
             'weight_column':
                 '',
             'stats_and_example_gen_dataflow_machine_type':
@@ -469,6 +469,10 @@ class UtilsTest(unittest.TestCase):
                 False,
             'seed':
                 1,
+            'eval_steps':
+                0,
+            'eval_frequency_secs':
+                60,
             'weight_column':
                 '',
             'max_failed_trial_count':
@@ -598,7 +602,7 @@ class UtilsTest(unittest.TestCase):
             'batch_size':
                 100,
             'eval_frequency_secs':
-                600,
+                60,
             'weight_column':
                 '',
             'stats_and_example_gen_dataflow_machine_type':
